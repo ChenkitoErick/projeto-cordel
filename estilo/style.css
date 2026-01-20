@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: PassionOne;
+    src: url(../fonts/PassionOne-Bold.ttf) format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Sriracha;
+    src: url(../fonts/Sriracha-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: bisque;
+}
+
+header {
+    background-color: black;
+    width: 100vi;
+    height: 170px;
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    text-align: center;
+}
+
+header > h1 {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    font-family: PassionOne;
+    font-size: 7vi;
+}
+
+.maior {
+    font-size: 10vi;
+}
+
+header > p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 60%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+main {
+    font-family: Sriracha;
+    font-size: 3.5vi;
+    font-weight: lighter;
+    line-height: 2.0;
+}
+
+.fundo-branco {
+    background-color: white;
+    padding: 60px 0px 100px 30px;
+}
+
+.fundo-transparente {
+    padding: 60px 0px;
+    margin-left: 30px;
+}
+
+.fundo-transparente > p {
+    background-color: gray;
+    color: white;
+    max-width: 41vi;
+    padding: 4px;
+}
+
+
+
+
+
+
+
+strong {
+    font-weight: bold;
+}
