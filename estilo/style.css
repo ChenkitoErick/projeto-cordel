@@ -20,41 +20,39 @@
     padding: 0px;
 }
 
-body {
-    background-color: bisque;
-}
-
 header {
-    background-color: black;
-    width: 100vi;
-    height: 170px;
-    position: relative;
-    color: rgb(255, 255, 255);
-    font-weight: lighter;
-    text-align: center;
+    color: white;
 }
 
 header > h1 {
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -70%);
+    background-color: black;
     font-family: PassionOne;
+    font-weight: lighter;
+    text-align: center;
     font-size: 7vi;
+    padding-top: 50px;
 }
 
-.maior {
+header > h1 > span {
     font-size: 10vi;
 }
 
 header > p {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 60%);
+    background-color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
 }
 
 main {
@@ -66,27 +64,49 @@ main {
 
 .fundo-branco {
     background-color: white;
-    padding: 60px 0px 100px 30px;
+    padding: 60px 0px 10vi 30px;
+}
+
+.fundo-branco > p {
+    padding-bottom: 50px;
 }
 
 .fundo-transparente {
-    padding: 60px 0px;
-    margin-left: 30px;
+    padding: 70px 30px;
+    box-shadow: inset 6px 0px 15px rgba(0, 0, 0, 0.5);
 }
 
 .fundo-transparente > p {
-    background-color: gray;
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
-    max-width: 41vi;
-    padding: 4px;
+    max-width: 42vi;
+    padding: 5px 0px 5px 5px;
 }
 
+#fundo1 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+}
 
+#fundo2 {
+    background-image: url('../imagens/background002.jpg');
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: cover;
+}
 
+footer > p {
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    padding: 8px;
+}
 
-
-
-
-strong {
-    font-weight: bold;
+footer a:hover {
+    text-decoration: underline;
 }
